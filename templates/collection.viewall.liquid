@@ -1,0 +1,33 @@
+<h2 class="viewall-title">{{ collection.title }}</h2>
+<div class="viewall-template">
+	{% paginate collection.products by 45 %}
+		{%- for product in collection.products -%}
+			{%- assign modulo3 = forloop.index | modulo: 3 -%}
+			<div class="product-item{% if modulo3 == 1 and forloop.index != 1 %} third-item{% endif %}">
+				<img src="{{ product.featured_image | img_url: '300x300' }}">
+				<h4>{{ product.title }}</h4>
+				<p class="price">
+					{% if product.variants.size > 1 %}
+						From
+					{% endif %}
+					{{ product.price | money }}
+				</p><!-- /.price -->
+			</div><!-- /.product-item -->
+			{%- assign modulo9 = forloop.index | modulo: 9 -%}
+			{%- if modulo9 == 0 -%}
+				<div class="pagebreak"> </div>
+				<div class="title-wrapper">
+					<h2 class="viewall-title">{{ collection.title }}</h2>
+				</div><!-- /.title-wrapper -->
+			{%- endif -%}
+		{%- endfor -%}
+		{%- if paginate.next.is_link -%}
+			<a href="{{paginate.next.url}}" class="load-more">{{paginate.next.title}}</a>
+		{%- endif -%}
+	{% endpaginate %}
+
+	<div class="footer-bar">
+		<span class="left-text">{{ 'now' | date: '%m/%e/%Y' }}</span>
+		<span class="right-text">Works & Photographs © John Derian Company</span>
+	</div><!-- /.footer-bar -->
+</div><!-- /.viewall-template -->

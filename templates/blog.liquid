@@ -1,0 +1,26 @@
+<div class="blog-listing">
+	<h2 class="page-title">{{ blog.title }}</h2>
+	{% paginate blog.articles by 6 %}
+	<div class="article-boxes">
+		{% for article in blog.articles %}
+			<div class="box">
+				<a href="{{ article.url }}" class="article-image-holder" style="background-image: url({{ article.image | img_url: 'x1100', format: 'pjpg' }});">
+				</a>
+				{% if article.tags.size > 0 %}
+				<div class="article-meta">
+					<span>{{ article.tags[0] }}</span>
+				</div>
+				{% endif %}
+				<h4><a href="{{ article.url }}">{{ article.title }}</a></h4>
+				<div class="excerpt">
+					{{ article.excerpt }}
+				</div>
+				<a href="{{ article.url }}" class="read-more">{{ 'article.excerpt.read_more' | t }}</a>
+			</div>
+		{% endfor %}
+	</div>
+	{% if paginate.previous or paginate.next %}
+		{% include 'pagination' %}
+	{% endif %}
+	{% endpaginate %}
+</div>

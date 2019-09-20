@@ -1,0 +1,188 @@
+{% for block in section.blocks %}
+	{% assign choose_page = block.settings.choose_page %}
+	{% unless choose_page == page.handle %}
+		{% continue %}
+	{% endunless %}
+
+	{% case block.type %}
+		
+		{% when 'about' %}
+
+			{% assign subtitle = block.settings.subtitle  %}
+			{% assign collection_title = block.settings.collection_title  %}
+			{% if subtitle != '' %}
+				<h3 class="subtitle">{{subtitle}}</h3><!-- /.subtitle -->
+			{% endif %}
+
+			<div class="page-row">
+				<div class="main-content">
+					{{ page.content | replace: '---', '<div class="divider"></div>' }}
+				</div><!-- /.main-content -->
+
+				<div class="sidebar">
+					{% if collection_title != '' %}
+						<h4>{{ collection_title }}</h4>
+					{% endif %}
+					{%- if block.settings.collection_url != blank -%}
+						<div class="view-more">
+							<a href="{{ collections[block.settings.collection_url].url }}">VIEW ALL</a>
+						</div><!-- /.view-more -->
+					{%- endif -%}
+					<ul>
+						{% for i in (1..5) %}
+							{%- assign field = 'product' | append: i -%}
+							{%- if block.settings[field] != blank -%}
+								{%- assign product = all_products[block.settings[field]] -%}
+								<li>
+									<a href="{{ product.url }}">
+										{{ product.featured_image | img_url: '1200x' | img_tag }}
+										<h4>{{ product.title }}</h4>
+										<span class="price">{{ product.price | money }}</span>
+									</a>
+								</li>
+							{%- endif -%}
+						{% endfor %}
+					</ul>
+
+				</div><!-- /.sidebar -->
+			</div><!-- /.page-row -->
+
+		{% when 'contact' %}
+			{% assign subtitle = block.settings.subtitle  %}
+			{% assign form_title = block.settings.form_title  %}
+
+			{% if subtitle != '' %}
+				<h3 class="subtitle">{{subtitle}}</h3><!-- /.subtitle -->
+			{% endif %}
+
+			<div class="page-row">
+				<div class="contact-content">
+					{{ page.content }}
+				</div><!-- /.contact-content -->
+
+				<div class="form-contact">
+					{% if form_title != '' %}
+						<h4 class="form-title">{{ form_title }}</h4><!-- /.form-title -->
+					{% endif %}
+					{% form 'contact' %}
+						{% if form.posted_successfully? %}
+							<p class="success-message">
+								{{ 'contact.form.success' | t  }}
+							</p>
+						{% else %}
+
+							{% if form.errors %}
+								{{ form.errors | default_errors }}
+							{% endif %}
+
+							<div class="input-wrapper">
+								<label for="contact-name">{{ 'contact.form.name' | t }}</label>
+								<input id="contact-name"type="text"value="{{ form.name }}"name="contact[name]"class="input-field {% if form.errors contains 'name' %}error{% endif %}">
+							</div>
+
+							<div class="input-wrapper">
+								<label for="contact-email">{{ 'contact.form.email' | t }}</label>
+								<input id="contact-email"type="text"value="{{ form.email }}"name="contact[email]"class="input-field {% if form.errors contains 'email' %}error{% endif %}">
+							</div>
+
+							<div class="input-wrapper">
+								<label for="contact-phone">{{ 'contact.form.phone' | t }}</label>
+								<input id="contact-phone"type="tel"value="{{ form.phone }}"name="contact[phone]"class="input-field {% if form.errors contains 'phone' %}error{% endif %}">
+							</div>
+
+							<div class="input-wrapper">
+								<label for="contact-message">{{ 'contact.form.message' | t }}</label>
+								<textarea id="contact-message"name="contact[comments]"class="input-field {% if form.errors contains 'comments' %}error{% endif %}">{{ form.comments }}</textarea>
+							</div>
+
+							<div class="cta-submit">
+								<input class="contact-form-submit" type="submit" value="{{ 'contact.form.submit' | t }}">
+							</div><!-- /.cta-submit -->
+						{% endif %}
+					{% endform %}
+				</div>
+			</div><!-- /.page-row -->
+	{% endcase %}
+
+{% endfor %}
+
+
+{% schema %}
+{
+	"name": "Pages Settings",
+	"blocks": [
+		{
+			"type": "about",
+			"name": "About",
+			"settings": [
+				{
+					"type": "page",
+					"id": "choose_page",
+					"label": "Choose Page"
+				},
+				{
+					"type": "text",
+					"id": "subtitle",
+					"label": "Subtitle"
+				},
+				{
+					"type": "text",
+					"id": "collection_title",
+					"label": "Collection Title"
+				},
+				{
+					"type": "collection",
+					"id": "collection_url",
+					"label": "Collection Link"
+				},
+				{
+					"type": "product",
+					"id": "product1",
+					"label": "Choose Product 1"
+				},
+				{
+					"type": "product",
+					"id": "product2",
+					"label": "Choose Product 2"
+				},
+				{
+					"type": "product",
+					"id": "product3",
+					"label": "Choose Product 3"
+				},
+				{
+					"type": "product",
+					"id": "product4",
+					"label": "Choose Product 4"
+				},
+				{
+					"type": "product",
+					"id": "product5",
+					"label": "Choose Product 5"
+				}
+			]
+		},
+		{
+			"type": "contact",
+			"name": "Contact",
+			"settings": [
+				{
+					"type": "page",
+					"id": "choose_page",
+					"label": "Choose Page"
+				},
+				{
+					"type": "richtext",
+					"id": "subtitle",
+					"label": "Subtitle"
+				},
+				{
+					"type": "text",
+					"id": "form_title",
+					"label": "Form Title"
+				}
+			]
+		}
+	]
+}
+{% endschema %}

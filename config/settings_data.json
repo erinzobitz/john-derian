@@ -1,0 +1,985 @@
+{
+  "current": {
+    "favicon": "shopify:\/\/shop_images\/5R-EYE_500x_92ea7d57-2ad8-4cc9-9f8e-f1d920e8fb18.png",
+    "color_background": "#ffffff",
+    "color_accent": "#202020",
+    "use_highlighted_menu": false,
+    "color_title_text": "#202020",
+    "color_text": "#5a5a5a",
+    "color_button_text": "#ffffff",
+    "font_title": "Google_Ovo",
+    "font_body": "Google_Rubik:300,300i,400,400i,500,500i,700,700i,900,900i",
+    "font_label": "Google_Rubik:300,300i,400,400i,500,500i,700,700i,900,900i",
+    "enable_currency_converter": false,
+    "currency_display_format": "money_with_currency_format",
+    "currency_converter_currencies": "INR GBP CAD USD AUD EUR JPY",
+    "currency_converter_default": "CAD",
+    "social_facebook": "",
+    "social_twitter": "",
+    "social_google": "",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/www.instagram.com\/johnderiancompany\/",
+    "social_vimeo": "",
+    "social_youtube": "",
+    "social_medium": "",
+    "social_rss": "",
+    "social_email": "",
+    "share_widget_facebook": true,
+    "share_widget_twitter": true,
+    "share_widget_pinterest": true,
+    "share_widget_google_plus": true,
+    "share_widget_email": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1990c6",
+    "checkout_button_color": "#1990c6",
+    "checkout_error_color": "#ff6d6d",
+    "sections": {
+      "section-2": {
+        "type": "dynamic-featured-collections",
+        "blocks": {
+          "1559325089673": {
+            "type": "collection",
+            "settings": {
+              "collection": "shop-the-story-domino-fall-2019",
+              "alignment": "left",
+              "show_description": true,
+              "custom_description": "<p>John's Provincetown entertaining&nbsp;style is showcased in Domino's latest issue. Read the&nbsp;article&nbsp;<a href=\"https:\/\/www.johnderian.com\/blogs\/news\/domino-fall-2019\" title=\"https:\/\/www.johnderian.com\/blogs\/news\/domino-fall-2019\">here<\/a>, and click below to explore the products featured in \"Host of the Town\".&nbsp;<\/p>"
+            }
+          },
+          "1509451557873": {
+            "type": "collection",
+            "settings": {
+              "collection": "fall-2019",
+              "alignment": "right",
+              "show_description": true,
+              "custom_description": "<p>Discover barrels of melons, bunches of 18th century florals, color spectrum cake pedestals, and more in our Fall 2019 Decoupage collection.<\/p>"
+            }
+          },
+          "1556919151612": {
+            "type": "collection",
+            "settings": {
+              "collection": "john-derian-zipper-pouches",
+              "alignment": "left",
+              "show_description": true,
+              "custom_description": "<p>Curated from John's timeless collection of 18th &amp; 19th Century images, three new zipper pouches are now available.<\/p>"
+            }
+          },
+          "1541623031176": {
+            "type": "collection",
+            "settings": {
+              "collection": "handmade-decoupage",
+              "alignment": "right",
+              "show_description": true,
+              "custom_description": "<p>With over 3,200 designs available, all our decoupage is made to order by hand in our New York City studio.<\/p>"
+            }
+          },
+          "1557402737536": {
+            "type": "collection",
+            "settings": {
+              "collection": "john-derian-the-scent",
+              "alignment": "left",
+              "show_description": true,
+              "custom_description": "<p>Delighting the senses with a&nbsp;blend of natural wildflowers, lavender, violet, jasmine, and so much more, our&nbsp;candle honors a commitment to tradition with a&nbsp; modern sensibility.<\/p>"
+            }
+          },
+          "1557150963632": {
+            "type": "collection",
+            "settings": {
+              "collection": "john-derian-astier-de-villatte",
+              "alignment": "right",
+              "show_description": true,
+              "custom_description": "<p>John&rsquo;s most beloved images pair beautifully with the crisp white of Astier de Villatte&rsquo;s line of ceramics.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1559325089673",
+          "1509451557873",
+          "1556919151612",
+          "1541623031176",
+          "1557402737536",
+          "1557150963632"
+        ],
+        "settings": {}
+      },
+      "section-3": {
+        "type": "dynamic-featured-products",
+        "settings": {
+          "title": "Featured Products",
+          "collection": "featured-products",
+          "product_item_style": "natural",
+          "enable_product_quickshop": false,
+          "product-count": 5,
+          "product_emphasize": true
+        }
+      },
+      "static-header": {
+        "type": "static-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_82939c39-40ac-49b3-b324-b7b5b170529e.png",
+          "logo_width": "263",
+          "mobile_logo": "",
+          "mobile_logo_width": "",
+          "menu": "main-menu-new",
+          "about_link": "shopify:\/\/pages\/about-us"
+        }
+      },
+      "site-footer": {
+        "type": "site-footer",
+        "blocks": {
+          "1507286827676": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "customer": {
+            "type": "customer",
+            "settings": {
+              "title": "Account"
+            }
+          },
+          "richtext": {
+            "type": "richtext",
+            "settings": {
+              "title": "About",
+              "content": "<p>John Derian Company was established in 1989. Our line of decoupage is made by hand in New York City&rsquo;s East Village, just a few blocks from our three retail shops.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1507286827676",
+          "customer",
+          "richtext"
+        ],
+        "settings": {
+          "enable_newsletter": true,
+          "enable_social": false,
+          "enable_payment_icons": false,
+          "enable_footer_popup": false,
+          "popup_title": "Keeping Up with John",
+          "popup_content": "<p>Sign up for our newsletter to receive updates&nbsp;&amp; exclusive offers. By signing up, you agree to the terms of our <a href=\"\/pages\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a>.<\/p>"
+        }
+      },
+      "static-collection": {
+        "type": "static-collection",
+        "settings": {
+          "products-per-page": 48,
+          "product_item_style": "natural",
+          "enable_product_quickshop": true
+        }
+      },
+      "static-product": {
+        "type": "static-product",
+        "blocks": {
+          "related-products": {
+            "type": "related_products",
+            "settings": {
+              "product_item_style": "natural",
+              "enable_product_quickshop": false,
+              "product-count": 5,
+              "product_emphasize": true
+            }
+          }
+        },
+        "block_order": [
+          "related-products"
+        ],
+        "settings": {
+          "enable_menu_form": true,
+          "enable_social_sharing": false
+        }
+      },
+      "static-article": {
+        "type": "static-article",
+        "settings": {
+          "enable_social_sharing": false
+        }
+      },
+      "static-blog": {
+        "type": "static-blog",
+        "settings": {
+          "posts-per-page": 4
+        }
+      },
+      "static-meganav": {
+        "type": "static-meganav",
+        "blocks": {
+          "static-meganav-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": ""
+            }
+          },
+          "static-meganav-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": ""
+            }
+          },
+          "static-meganav-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": ""
+            }
+          },
+          "static-meganav-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": ""
+            }
+          }
+        },
+        "block_order": [
+          "static-meganav-0",
+          "static-meganav-1",
+          "static-meganav-2",
+          "static-meganav-3"
+        ],
+        "settings": {
+          "trigger": "",
+          "show_images": true,
+          "type": "tags",
+          "truncate": true,
+          "truncate_count": 5
+        }
+      },
+      "static-contactbar": {
+        "type": "static-contactbar",
+        "settings": {
+          "trigger": "",
+          "phone_value": "",
+          "email_value": "",
+          "hours_value": "",
+          "directions_value": "",
+          "directions_map": false,
+          "api_key": "",
+          "directions-map-zoom": 2,
+          "directions_map_color_fg": "#3b3b3b",
+          "directions_map_color_bg": "#ffffff"
+        }
+      },
+      "locations": {
+        "type": "locations",
+        "blocks": {
+          "1507560158228": {
+            "type": "location",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/East_2nd.jpg",
+              "title": "JOHN DERIAN COMPANY",
+              "subtitle": "Decoupage & Imported Goods",
+              "content": "<p>6 East Second Street between 2nd Avenue and the Bowery<br>New York, NY 10003<br>shop@johnderian.com<br>p. (212) 677-3917<br>f. (212) 677-7197<br>Hours:&nbsp;Tuesday to Sunday 11am&ndash;7pm<br>Closed Sundays in August<br>Open Mondays in December<\/p>"
+            }
+          },
+          "1507560280038": {
+            "type": "location",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SHOPSdryGoodsF.jpg",
+              "title": "JOHN DERIAN DRY GOODS",
+              "subtitle": "Textiles, Furniture, Rugs and Art",
+              "content": "<p>10 East Second Street between 2nd Avenue and the Bowery<br>New York, NY 10003<br>drygoods@johnderian.com<br>p. (212) 677-8408<br>Hours:&nbsp;Tuesday to Sunday 11am&ndash;7pm<br>Closed Sundays in August<br>Open Mondays in December<\/p>"
+            }
+          },
+          "1507560298439": {
+            "type": "location",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SHOPSfuniture.jpg",
+              "title": "JOHN DERIAN FURNITURE",
+              "subtitle": "John Derian Collection by Cisco Brothers",
+              "content": "<p>8 East Second Street between 2nd Avenue and the Bowery<br>New York, NY 10003<br>furniture@johnderian.com<br>p. (212) 677-8409<br>Hours: Tuesday to Sunday 12pm&ndash;7pm<br>Closed Sundays in August<br>Open Mondays in December<\/p>"
+            }
+          },
+          "1522424797141": {
+            "type": "location",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/unnamed.jpg",
+              "title": "JOHN DERIAN WEST",
+              "subtitle": "Decoupage, Astier de Villatte Ceramics & Imported Goods",
+              "content": "<p>18 Christopher Street<br>New York, NY 10014<br>west@johnderian.com<br>p.&nbsp;(212) 677-8402<br>Hours: Tuesday to Sunday 11am&ndash;7pm<br>Closed Sundays in August<br>Open Mondays in December<\/p>"
+            }
+          },
+          "1507560318583": {
+            "type": "location",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SHOPSProvincetown.jpg",
+              "title": "JOHN DERIAN NEW ENGLAND",
+              "subtitle": "NEW ENGLAND",
+              "content": "<p>Law Street (back of 396 Commercial Street)<br>Provincetown, MA 02657<br>p. (508) 487-1362<\/p>\n<p>Hours: Monday to Sunday 11am-7pm<\/p>\n<p>Closed 1pm-2pm for lunch<br>Open June 15 - September<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1507560158228",
+          "1507560280038",
+          "1507560298439",
+          "1522424797141",
+          "1507560318583"
+        ],
+        "settings": {}
+      },
+      "pages": {
+        "type": "pages",
+        "blocks": {
+          "1507620573792": {
+            "type": "about",
+            "settings": {
+              "choose_page": "about",
+              "subtitle": "John Derian Company making decoupage in New York City since 1989.",
+              "collection_title": "Goods by john",
+              "collection_url": "john-derian",
+              "product1": "17t-stuttgart-flower-png",
+              "product2": "bengal-parrot-vase-vsejhn24-jpg",
+              "product3": "6-field-bench",
+              "product4": "gf-1",
+              "product5": "john-derian-picture-book-1"
+            }
+          },
+          "1507625711741": {
+            "type": "contact",
+            "settings": {
+              "choose_page": "contact",
+              "subtitle": "<p>For locations and hours of operation, please click&nbsp;<a href=\"\/pages\/our-locations\" title=\"Our Locations\">here<\/a>.<\/p>",
+              "form_title": "General Inquiries:"
+            }
+          }
+        },
+        "block_order": [
+          "1507620573792",
+          "1507625711741"
+        ],
+        "settings": {}
+      },
+      "1518882607082": {
+        "type": "dynamic-instagram",
+        "settings": {
+          "main_title": "<p>Follow <a href=\"https:\/\/www.instagram.com\/johnderiancompany\/\" title=\"https:\/\/www.instagram.com\/johnderiancompany\/\">@johnderiancompany<\/a><\/p>",
+          "access_token": "18875112.1677ed0.c69519fd3600475794e2fb79914225c3"
+        }
+      },
+      "static-cart": {
+        "type": "static-cart",
+        "settings": {
+          "show_notes": true,
+          "notes_placeholder": "Write a gift note or any special instructions for your shipment here.",
+          "shipping_calculator_default_country": "United States"
+        }
+      },
+      "1565385605952": {
+        "type": "dynamic-slideshow",
+        "blocks": {
+          "1565385913325": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/RightCopy_045515eb-279e-4dd9-9ed6-d654e34ff187.jpg",
+              "layout": "full-width-right",
+              "text_color": "#ffffff",
+              "title": "#Target20",
+              "text": "<p>In celebration of our JD x Target collaboration revival, we are featured in Target's&nbsp;micro-series documentary, \"Design for All\".<\/p>",
+              "link": "https:\/\/www.johnderian.com\/blogs\/news\/john-derian-for-target",
+              "link_text": "Watch & Exlpore"
+            }
+          },
+          "1565385605952-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HAlloween_brighter_LeftCopy.jpg",
+              "layout": "full-width-left",
+              "text_color": "#ffffff",
+              "title": "HAPPY HALLOWEEN",
+              "text": "<p>Celebrate October with spooky decoupage ephemera, cups, saucers, party plates and handcrafted critters.&nbsp;&nbsp;<\/p>",
+              "link": "https:\/\/www.johnderian.com\/collections\/halloween-1?page=1",
+              "link_text": "TRICK-OR-TREAT"
+            }
+          },
+          "1565385605952-1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Scarves_LeftCopy.jpg",
+              "layout": "full-width-left",
+              "text_color": "#ffffff",
+              "title": "Picture Book Scarves",
+              "text": "<p>New Silk Scarves torn from the pages of John's <a href=\"https:\/\/www.johnderian.com\/collections\/john-derian-picture-book-1\" title=\"https:\/\/www.johnderian.com\/collections\/john-derian-picture-book-1\">Picture Book<\/a><\/p>",
+              "link": "https:\/\/www.johnderian.com\/collections\/john-derian-picture-book-scarves",
+              "link_text": "Shop Scarves"
+            }
+          },
+          "1565387408449": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/RightCopy_TMAG.jpg",
+              "layout": "full-width-right",
+              "text_color": "#f0f0f0",
+              "title": "T Magazine Online",
+              "text": "<p>Featuring John's Provincetown, MA Sea Captain's house.&nbsp;<\/p>",
+              "link": "https:\/\/www.johnderian.com\/blogs\/news\/the-new-york-times-style-magazine-online-july-2018",
+              "link_text": "Watch"
+            }
+          },
+          "1565385763903": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/LeftCopy_PlayingCards.jpg",
+              "layout": "full-width-left",
+              "text_color": "#ffffff",
+              "title": "Playing Cards",
+              "text": "<p>John's souvenir playing cards are inspired by a 19th century deck from Engalnd.<\/p>",
+              "link": "https:\/\/www.johnderian.com\/collections\/playing-cards\/products\/john-derian-playing-cards",
+              "link_text": "Go Fish"
+            }
+          },
+          "1565388131906": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/LeftCopy_AntoinettePoisson.jpg",
+              "layout": "full-width-left",
+              "text_color": "#ffffff",
+              "title": "Antoinette Poisson",
+              "text": "<p>Pillows and handmade items&nbsp;inspired by 18th Century French textiles.<\/p>",
+              "link": "https:\/\/www.johnderian.com\/collections\/antoinette-poisson",
+              "link_text": "Shop"
+            }
+          }
+        },
+        "block_order": [
+          "1565385913325",
+          "1565385605952-0",
+          "1565385605952-1",
+          "1565387408449",
+          "1565385763903",
+          "1565388131906"
+        ],
+        "settings": {
+          "should_autoplay": true,
+          "slide_autoplay": 4
+        }
+      }
+    },
+    "content_for_index": [
+      "section-2",
+      "section-3",
+      "1565385605952",
+      "1518882607082"
+    ]
+  },
+  "presets": {
+    "Light": {
+      "color_background": "#FFFFFF",
+      "color_accent": "#292929",
+      "use_highlighted_menu": false,
+      "color_title_text": "#292929",
+      "color_text": "#292929",
+      "color_button_text": "#FFFFFF",
+      "font_title": "Google_Prata",
+      "font_body": "Google_Karla:400,400i,700,700i",
+      "font_label": "Google_Karla:400,400i,700,700i",
+      "enable_currency_converter": true,
+      "currency_display_format": "money_with_currency_format",
+      "currency_converter_currencies": "INR GBP CAD USD AUD EUR JPY",
+      "currency_converter_default": "CAD",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1990C6",
+      "checkout_button_color": "#1990C6",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "section-1": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "slide-1": {
+              "type": "slide",
+              "settings": {
+                "layout": "default-left",
+                "text_color": "#000000"
+              }
+            },
+            "slide-2": {
+              "type": "slide",
+              "settings": {
+                "layout": "default-right",
+                "text_color": "#000000"
+              }
+            },
+            "slide-3": {
+              "type": "slide",
+              "settings": {
+                "layout": "default-left",
+                "text_color": "#292929"
+              }
+            }
+          },
+          "block_order": [
+            "slide-1",
+            "slide-2",
+            "slide-3"
+          ],
+          "settings": {
+            "slide_autoplay": 3
+          }
+        },
+        "section-2": {
+          "type": "dynamic-featured-collections",
+          "blocks": {
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "alignment": "right",
+                "show_description": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "alignment": "left",
+                "show_description": true
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "alignment": "right",
+                "show_description": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-1",
+            "collection-2",
+            "collection-3"
+          ],
+          "settings": {}
+        },
+        "section-3": {
+          "type": "dynamic-featured-products",
+          "settings": {
+            "product_item_style": "natural",
+            "product-count": 5,
+            "product_emphasize": true
+          }
+        },
+        "section-4": {
+          "type": "dynamic-blog-posts",
+          "settings": {}
+        },
+        "section-5": {
+          "type": "dynamic-instagram",
+          "settings": {}
+        },
+        "section-6": {
+          "type": "dynamic-twitter",
+          "settings": {}
+        },
+        "static-header": {
+          "type": "static-header",
+          "settings": {}
+        },
+        "site-footer": {
+          "type": "site-footer",
+          "blocks": {
+            "customer": {
+              "type": "customer",
+              "settings": {}
+            },
+            "richtext": {
+              "type": "richtext",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "customer",
+            "richtext"
+          ],
+          "settings": {
+            "enable_newsletter": true
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "settings": {
+            "product_item_style": "natural"
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "blocks": {
+            "related-products": {
+              "type": "related_products",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "related-products"
+          ],
+          "settings": {}
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {}
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "posts-per-page": 4
+          }
+        }
+      },
+      "content_for_index": [
+        "section-1",
+        "section-2",
+        "section-3",
+        "section-4",
+        "section-5",
+        "section-6"
+      ]
+    },
+    "Cool": {
+      "color_background": "#FFFFFF",
+      "color_accent": "#32818e",
+      "use_highlighted_menu": true,
+      "color_title_text": "#32818e",
+      "color_text": "#292929",
+      "color_button_text": "#FFFFFF",
+      "font_title": "Google_Poppins:300,400,700",
+      "font_body": "Google_Karla:400,400i,700,700i",
+      "font_label": "Google_Karla:400,400i,700,700i",
+      "enable_currency_converter": true,
+      "currency_display_format": "money_format",
+      "currency_converter_currencies": "CAD USD GBP AUD EUR JPY",
+      "currency_converter_default": "CAD",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1990C6",
+      "checkout_button_color": "#1990C6",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "section-1": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "slide-1": {
+              "type": "slide",
+              "settings": {
+                "layout": "default-right",
+                "text_color": "#32818e"
+              }
+            },
+            "slide-2": {
+              "type": "slide",
+              "settings": {
+                "layout": "default-left",
+                "text_color": "#32818e"
+              }
+            },
+            "slide-3": {
+              "type": "slide",
+              "settings": {
+                "layout": "default-right",
+                "text_color": "#32818e"
+              }
+            }
+          },
+          "block_order": [
+            "slide-1",
+            "slide-2",
+            "slide-3"
+          ],
+          "settings": {
+            "slide_autoplay": 3
+          }
+        },
+        "section-2": {
+          "type": "dynamic-featured-collections",
+          "blocks": {
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "alignment": "left",
+                "show_description": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "alignment": "right",
+                "show_description": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {}
+        },
+        "section-3": {
+          "type": "dynamic-featured-products",
+          "settings": {
+            "title": "Featured Products",
+            "collection": "featured-products",
+            "product_item_style": "cropped-medium",
+            "product-count": 3,
+            "product_emphasize": true
+          }
+        },
+        "section-4": {
+          "type": "dynamic-blog-posts",
+          "settings": {}
+        },
+        "section-5": {
+          "type": "dynamic-instagram",
+          "settings": {}
+        },
+        "section-6": {
+          "type": "dynamic-twitter",
+          "settings": {}
+        },
+        "static-header": {
+          "type": "static-header",
+          "settings": {}
+        },
+        "site-footer": {
+          "type": "site-footer",
+          "blocks": {
+            "customer": {
+              "type": "customer",
+              "settings": {}
+            },
+            "richtext": {
+              "type": "richtext",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "customer",
+            "richtext"
+          ],
+          "settings": {
+            "enable_newsletter": true
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "settings": {
+            "products-per-page": 12,
+            "product_item_style": "natural"
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "settings": {}
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "section-1",
+        "section-3",
+        "section-2",
+        "section-4",
+        "section-5",
+        "section-6"
+      ]
+    },
+    "Fresh": {
+      "color_background": "#f6f6f6",
+      "color_accent": "#657461",
+      "use_highlighted_menu": false,
+      "color_title_text": "#474c46",
+      "color_text": "#6b6b6b",
+      "color_button_text": "#FFFFFF",
+      "font_title": "Google_Roboto+Condensed:400,400i,700,700i",
+      "font_body": "Google_Roboto:300,300i,400,400i,700,700i",
+      "font_label": "Google_Muli:300,300i,400,400i,700,700i",
+      "enable_currency_converter": true,
+      "currency_display_format": "money_format",
+      "currency_converter_currencies": "INR GBP CAD USD AUD EUR JPY",
+      "currency_converter_default": "CAD",
+      "share_widget_facebook": true,
+      "share_widget_twitter": true,
+      "share_widget_pinterest": true,
+      "share_widget_google_plus": true,
+      "share_widget_email": true,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1990C6",
+      "checkout_button_color": "#1990C6",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "section-1": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "slide-1-1": {
+              "type": "slide",
+              "settings": {
+                "layout": "full-width-right",
+                "text_color": "#ffffff"
+              }
+            }
+          },
+          "block_order": [
+            "slide-1-1"
+          ],
+          "settings": {
+            "slide_autoplay": 3
+          }
+        },
+        "section-2": {
+          "type": "dynamic-mobile-collections",
+          "settings": {
+            "title": "Browse By",
+            "show_images": false,
+            "type": "tags",
+            "truncate_count": 5
+          }
+        },
+        "section-3": {
+          "type": "dynamic-featured-products",
+          "settings": {
+            "title": "Our Best Sellers",
+            "collection": "frontpage",
+            "product_item_style": "cropped-large",
+            "enable_product_quickshop": true,
+            "product-count": 4,
+            "product_emphasize": false
+          }
+        },
+        "section-4": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "slide-4-1": {
+              "type": "slide",
+              "settings": {
+                "layout": "default-right",
+                "text_color": "#474c46"
+              }
+            },
+            "slide-4-2": {
+              "type": "slide",
+              "settings": {
+                "layout": "default-right",
+                "text_color": "#474c46"
+              }
+            },
+            "slide-4-3": {
+              "type": "slide",
+              "settings": {
+                "layout": "default-right",
+                "text_color": "#474c46"
+              }
+            }
+          },
+          "block_order": [
+            "slide-4-1",
+            "slide-4-2",
+            "slide-4-3"
+          ],
+          "settings": {
+            "slide_autoplay": 3
+          }
+        },
+        "section-5": {
+          "type": "dynamic-twitter",
+          "settings": {
+            "title": "Twitter",
+            "username": "pixelunion"
+          }
+        },
+        "section-6": {
+          "type": "dynamic-instagram",
+          "settings": {}
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "enable_social_sharing": true
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "posts-per-page": 4
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "settings": {
+            "products-per-page": 12,
+            "product_item_style": "cropped-large",
+            "enable_product_quickshop": true
+          }
+        },
+        "static-contactbar": {
+          "type": "static-contactbar",
+          "settings": {
+            "directions_map_color_fg": "#292929",
+            "directions_map_color_bg": "#ffffff"
+          }
+        },
+        "site-footer": {
+          "type": "site-footer",
+          "settings": {
+            "enable_newsletter": true,
+            "enable_social": true,
+            "enable_payment_icons": true
+          }
+        },
+        "static-header": {
+          "type": "static-header",
+          "settings": {}
+        },
+        "static-meganav": {
+          "type": "static-meganav",
+          "settings": {
+            "trigger": "",
+            "show_images": true,
+            "type": "titles",
+            "truncate_count": 1
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "settings": {
+            "enable_social_sharing": true
+          }
+        }
+      },
+      "content_for_index": [
+        "section-1",
+        "section-2",
+        "section-3",
+        "section-4",
+        "section-5",
+        "section-6"
+      ]
+    }
+  }
+}

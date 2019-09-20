@@ -1,0 +1,56 @@
+<div class="inner">
+	{% for block in section.blocks %}
+		{% assign image = block.settings.image %}
+		{% assign title = block.settings.title %}
+		{% assign subtitle = block.settings.subtitle %}
+		{% assign content = block.settings.content %}
+
+		<div class="location-box">
+			{{ image | img_url: '640x' | img_tag }}
+			{% if title != '' %}
+				<h4>{{ title }}</h4>
+			{% endif %}
+			{% if subtitle != '' %}
+				<h5>{{ subtitle }}</h5>
+			{% endif %}
+			{% if content != '' %}
+				<p>{{ content }}</p>
+			{% endif %}
+		</div><!-- /.location-box -->
+	{% endfor %}
+</div><!-- /.inner -->
+
+{% schema %}
+{
+	"name": "Locations",
+	"class": "section-locations",
+	"blocks": [
+		{
+			"type": "location",
+			"name": "location",
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				},
+				{
+					"type": "text",
+					"id": "title",
+					"label": "Title"
+				},
+				{
+					"type": "text",
+					"id": "subtitle",
+					"label": "Subtitle"
+				},
+				{
+					"type": "richtext",
+					"id": "content",
+					"label": "Content"
+				}
+			]
+		}
+	]
+}
+{% endschema %}

@@ -1,0 +1,90 @@
+/* ------------------------------------------------------------ *\
+	Variables
+\* ------------------------------------------------------------ */
+
+$ovo: 					'Ovo', serif;
+$rubik: 				'Rubik', sans-serif;
+
+
+$text-grey: 			#5a5a5a;
+$text-black: 			#202020;
+$blue: 					#4295ad;
+$light-grey: 			#f6f6f6;
+
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.25 !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: $ovo !important;
+	font-weight: 400 !important;
+}
+
+h5,
+h6 {
+	font-family: $rubik !important;
+}
+
+h1 {
+	font-size: 48px !important;
+	letter-spacing: -.9px !important;
+}
+
+h2 {
+	font-size: 36px !important;
+}
+
+h3 {
+	font-size: 24px !important;
+	text-transform: uppercase !important;
+	letter-spacing: 2.82px !important;
+}
+
+h5 {
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	letter-spacing: .92px !important;
+}
+
+p {
+	font-weight: 300 !important;
+	font-size: 14px !important;
+	line-height: 1.7 !important;
+}
+
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.cart-menu-slideout-header,
+.collection-menu-slideout-header,
+.product-menu-slideout-header,
+.cart-menu-slideout-content,
+.collection-menu-slideout-content,
+.product-menu-slideout-content,
+.cart-menu,
+.collection-menu,
+.product-menu,
+.site-main,
+.search-results-groups,
+.site-footer,
+.site-header,
+.collection-menu-inner-wrapper {
+	@media screen and (min-width: 960px) {
+		max-width: 1110px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

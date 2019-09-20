@@ -1,0 +1,16 @@
+<div class="checkbox-list">
+  <ul>
+    {% if gift == true %}
+    <li>
+      <input type="checkbox" id="check-giftbox{% if custom_id %}-{{product.id}}{% endif %}" name="giftbox" class="product-checkbox" value="Yes" />
+      <label for="check-giftbox{% if custom_id %}-{{product.id}}{% endif %}">Include free gift box</label>
+    </li>
+    {% endif %}
+	{% if hanger == true %}
+    <li>
+      <input type="checkbox" id="check-hanger{% if custom_id %}-{{product.id}}{% endif %}" name="hanger" class="product-checkbox" value="Yes" />
+      <label for="check-hanger{% if custom_id %}-{{product.id}}{% endif %}">Include free plate hanger</label>
+    </li>
+    {% endif %}
+  </ul>
+</div><!-- /.checkbox-list -->

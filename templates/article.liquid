@@ -1,0 +1,41 @@
+<div class="single-article">
+	
+	<div class="tag-meta">
+		{{ article.tags[0] }}
+	</div><!-- /.tag-meta -->
+
+	<div class="article-box">
+		<h2 class="artical-title-holder">{{ article.title }}</h2><!-- /.article-title -->
+
+		<div class="featured-image">
+			{{ article.image | img_url: '1024x' | img_tag }}
+			{%- if article.image.alt != blank and article.image.alt != article.title -%}
+				<div class="caption"><span>PRODUCTS</span> {{ article.image.alt }}</div>
+			{%- endif -%}
+		</div><!-- /.featured-image -->
+		
+		<div class="article-content">
+			{{ article.content }}
+		</div><!-- /.article-content -->
+
+	</div><!-- /.article-box -->
+
+</div><!-- /.single-article -->
+
+{%- if blog.previous_article or blog.next_article -%}
+	<nav class="article-pagination">
+		{% if blog.previous_article %}
+			<a class="article-pagination-previous-post" href="{{ blog.previous_article }}">
+				<span class="article-pagination-previous-text">PREV</span>
+			</a>
+		{% endif %}
+
+		<span class="spacer">/</span>
+
+		{% if blog.next_article %}
+			<a class="article-pagination-next-post" href="{{ blog.next_article }}">
+				<span class="article-pagination-next-text">NEXT</span>
+			</a>
+		{% endif %}
+	</nav>
+{%- endif -%}
