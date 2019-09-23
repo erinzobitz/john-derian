@@ -34,9 +34,7 @@
         <a href="{{ item.url }}">{{ item.product.title }}</a>
         {%- for property in item.properties -%}
           <br/><small>{{ property[1] }}</small>
-        {%- endfor -%}
-
-        {%- unless item.properties -%}
+        {% else %}
           {%- if item.product.template_suffix == 'giftbox-hanger' -%}
             <br/><small class="cart-item-title--notice">No free hanger or gift box selected</small>
             <br/><small class="cart-item-title--notice">*Can be selected when adding item to your cart</small>
@@ -49,7 +47,7 @@
             <br/><small class="cart-item-title--notice">No free hanger selected</small>
             <br/><small class="cart-item-title--notice">*Can be selected when adding item to your cart</small>
           {%- endif -%}
-        {%- endunless -%}
+        {%- endfor -%}
       </span>
     </div>
     <div class="cart-item-row cart-item-row-2">
@@ -67,9 +65,7 @@
       <a href="{{ item.url }}">{{ item.product.title }}</a>
       {%- for property in item.properties -%}
         <br/><small>{{ property[1] }}</small>
-      {%- endfor -%}
-
-      {%- unless item.properties -%}
+      {%- else %}
         {%- if item.product.template_suffix == 'giftbox-hanger' -%}
           <br/><small class="cart-item-title--notice">No free hanger or gift box selected</small>
           <br/><small class="cart-item-title--notice">*Can be selected when adding item to your cart</small>
@@ -82,7 +78,7 @@
           <br/><small class="cart-item-title--notice">No free hanger selected</small>
           <br/><small class="cart-item-title--notice">*Can be selected when adding item to your cart</small>
         {%- endif -%}
-      {%- endunless -%}
+      {%- endfor -%}
     </span>
   </div>
   <div class="cart-item-column cart-item-column-3">

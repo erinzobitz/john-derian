@@ -2,8 +2,8 @@
 <div class="product-menu-container{% if settings.use_highlighted_menu %} product-menu-highlight{% endif %}" data-product-menu-container>
   <form class="product-menu-form" method="post" action="/cart/add" data-product-menu-form>
     <div class="hidden-checkboxes">
-      <input type="checkbox" class="hidden-check check-giftbox" name="properties[include-free-gift-box]" value="Gift Box Included" />
-      <input type="checkbox" class="hidden-check check-hanger" name="properties[include-free-plate-hanger]" value="Hanger Included" />
+      <input type="checkbox" class="hidden-check check-giftbox check-giftbox-{{product.id}}" name="properties[include-free-gift-box]" value="Gift Box Included" />
+      <input type="checkbox" class="hidden-check check-hanger check-hanger-{{product.id}}" name="properties[include-free-plate-hanger]" value="Hanger Included" />
     </div>
 
     {% comment %}
