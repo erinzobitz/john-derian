@@ -304,5 +304,11 @@
       "search": "Search",
       "tags": "Tagged \"{{ tags }}\""
     }
+  },
+  "socialshopwave": {
+    "add_to_cart": "Add To Cart",
+    "adding_to_cart": "Adding...",
+    "sold_out": "Sold Out",
+    "description": "Description"
   }
 }

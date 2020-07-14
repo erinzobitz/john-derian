@@ -145,6 +145,18 @@
 
 {%- include 'collection-menu' -%}
 
+{% if product.options.size == 1 %}
+  <script>
+    var product_variants_removed = [
+      {%- for variant in product.variants -%}
+        {%- unless variant.available -%}
+          `{{ variant.title }}`,
+        {%- endunless -%}
+      {%- endfor -%}
+    ];
+  </script>
+{% endif %}
+
 {% schema %}
 {
   "name": "Collection pages",

@@ -50,6 +50,10 @@
   </head>
 
   <body {% if template == 'collection.viewall' %}class="viewall"{% endif %}>
+{% capture the_snippet_content %}{% render 'socialshopwave-helper' %}{% endcapture %}
+            {% unless the_snippet_content contains 'Liquid error' %}
+              {{ the_snippet_content }}
+            {% endunless %}
     {% if template contains 'password' %}
       <main class="site-main">
         {{ content_for_layout }}
@@ -93,5 +97,7 @@
     {{ 'custom.js'  | asset_url | script_tag }}
 
     {% include 'structured-data' %}
-  </body>
+  
+  {% render 'bookthatapp-widgets' %}
+</body>
 </html>

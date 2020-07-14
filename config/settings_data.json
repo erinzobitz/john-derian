@@ -47,67 +47,67 @@
       "section-2": {
         "type": "dynamic-featured-collections",
         "blocks": {
-          "1559325089673": {
-            "type": "collection",
-            "settings": {
-              "collection": "shop-the-story-domino-fall-2019",
-              "alignment": "left",
-              "show_description": true,
-              "custom_description": "<p>John's Provincetown entertaining&nbsp;style is showcased in Domino's latest issue. Read the&nbsp;article&nbsp;<a href=\"https:\/\/www.johnderian.com\/blogs\/news\/domino-fall-2019\" title=\"https:\/\/www.johnderian.com\/blogs\/news\/domino-fall-2019\">here<\/a>, and click below to explore the products featured in \"Host of the Town\".&nbsp;<\/p>"
-            }
-          },
-          "1509451557873": {
-            "type": "collection",
-            "settings": {
-              "collection": "fall-2019",
-              "alignment": "right",
-              "show_description": true,
-              "custom_description": "<p>Discover barrels of melons, bunches of 18th century florals, color spectrum cake pedestals, and more in our Fall 2019 Decoupage collection.<\/p>"
-            }
-          },
           "1556919151612": {
             "type": "collection",
             "settings": {
-              "collection": "john-derian-zipper-pouches",
+              "collection": "vintage-antiques",
               "alignment": "left",
               "show_description": true,
-              "custom_description": "<p>Curated from John's timeless collection of 18th &amp; 19th Century images, three new zipper pouches are now available.<\/p>"
+              "custom_description": "<p><span style=\"text-decoration: none;\">Our&nbsp;cache of singularly beautiful antiquities from all over the world; Dutch floral paintings, woven cotton-linen&nbsp;umbrellas, Evert Rabbers framed pencil drawings, 19th century wooden bowls and stoneware, and more.<\/span><\/p>"
             }
           },
           "1541623031176": {
             "type": "collection",
             "settings": {
-              "collection": "handmade-decoupage",
+              "collection": "jeanette-farrier-textiles",
               "alignment": "right",
               "show_description": true,
-              "custom_description": "<p>With over 3,200 designs available, all our decoupage is made to order by hand in our New York City studio.<\/p>"
+              "custom_description": "<p>Jeanette Farrier travels to India several times a year to collect vintage cotton sari fabrics for her&nbsp;one-of-kind kantha pillows, throws, bedcovers and robes.<\/p>"
             }
           },
-          "1557402737536": {
+          "1588269336831": {
             "type": "collection",
             "settings": {
-              "collection": "john-derian-the-scent",
+              "collection": "anke-dreschel-steiff-animals",
               "alignment": "left",
               "show_description": true,
-              "custom_description": "<p>Delighting the senses with a&nbsp;blend of natural wildflowers, lavender, violet, jasmine, and so much more, our&nbsp;candle honors a commitment to tradition with a&nbsp; modern sensibility.<\/p>"
+              "custom_description": "<p><span style=\"text-decoration: none;\">Stuffed animals handmade in Germany by Steiff and embroidered silk velvet animals by Anke Dreschel.<\/span><\/p>"
+            }
+          },
+          "1509451557873": {
+            "type": "collection",
+            "settings": {
+              "collection": "hugo-guinness",
+              "alignment": "right",
+              "show_description": true,
+              "custom_description": "<p>A collection of original paintings, drawings and&nbsp;whimsical linocuts&nbsp;made by&nbsp;Hugo in his Brooklyn studio.<\/p>"
             }
           },
           "1557150963632": {
             "type": "collection",
             "settings": {
-              "collection": "john-derian-astier-de-villatte",
+              "collection": "astier-de-villatte-2",
+              "alignment": "left",
+              "show_description": true,
+              "custom_description": "<p>Astier de Villatte&rsquo;s ceramic pieces are handmade in Paris of black terracotta clay with their signature glossy white glaze. Inspired by 18th and 19th century designs, each piece is entirely unique.<\/p>"
+            }
+          },
+          "1594722731783": {
+            "type": "collection",
+            "settings": {
+              "collection": "decoupage-sale",
               "alignment": "right",
               "show_description": true,
-              "custom_description": "<p>John&rsquo;s most beloved images pair beautifully with the crisp white of Astier de Villatte&rsquo;s line of ceramics.<\/p>"
+              "custom_description": "<p>Shop our annual decoupage samples and seconds sale! Thousands of pieces fastidiously&nbsp;handmade in our New York City design studio are now 50% or more off.<\/p>"
             }
           }
         },
         "block_order": [
-          "1559325089673",
-          "1509451557873",
+          "1594722731783",
           "1556919151612",
           "1541623031176",
-          "1557402737536",
+          "1588269336831",
+          "1509451557873",
           "1557150963632"
         ],
         "settings": {}
@@ -276,13 +276,22 @@
       "locations": {
         "type": "locations",
         "blocks": {
+          "1588025385836": {
+            "type": "location",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Web_Image_6ef7baf1-f610-46e9-9ac1-577cf58f6e5f.jpg",
+              "title": "JOHN DERIAN ONLINE",
+              "subtitle": "ONLINE STORE",
+              "content": "<p><strong>Contact Information&nbsp;<\/strong><\/p>\n<p>online@johnderian.com<\/p>\n<p>(800) 677-3207<\/p>\n<p><strong>Shops closed&nbsp;until further notice.<\/strong><\/p>\n<p><strong>Please email info@johnderian.com for inquiries or appointments.<\/strong><\/p>"
+            }
+          },
           "1507560158228": {
             "type": "location",
             "settings": {
               "image": "shopify:\/\/shop_images\/East_2nd.jpg",
               "title": "JOHN DERIAN COMPANY",
               "subtitle": "Decoupage & Imported Goods",
-              "content": "<p>6 East Second Street between 2nd Avenue and the Bowery<br>New York, NY 10003<br>shop@johnderian.com<br>p. (212) 677-3917<br>f. (212) 677-7197<br>Hours:&nbsp;Tuesday to Sunday 11am&ndash;7pm<br>Closed Sundays in August<br>Open Mondays in December<\/p>"
+              "content": "<p>6 East Second Street between 2nd Avenue and the Bowery<br>New York, NY 10003<br>shop@johnderian.com<\/p>\n<p><strong>Closed&nbsp;until further notice. <\/strong><\/p>\n<p><strong>Please email info@johnderian.com for inquiries or appointments.<\/strong><\/p>"
             }
           },
           "1507560280038": {
@@ -291,7 +300,7 @@
               "image": "shopify:\/\/shop_images\/SHOPSdryGoodsF.jpg",
               "title": "JOHN DERIAN DRY GOODS",
               "subtitle": "Textiles, Furniture, Rugs and Art",
-              "content": "<p>10 East Second Street between 2nd Avenue and the Bowery<br>New York, NY 10003<br>drygoods@johnderian.com<br>p. (212) 677-8408<br>Hours:&nbsp;Tuesday to Sunday 11am&ndash;7pm<br>Closed Sundays in August<br>Open Mondays in December<\/p>"
+              "content": "<p>10 East Second Street between 2nd Avenue and the Bowery<br>New York, NY 10003<br>drygoods@johnderian.com<\/p>\n<p><strong>Closed&nbsp;until further notice.<\/strong><\/p>\n<p><strong>Please email info@johnderian.com for inquiries or appointments.<\/strong><\/p>"
             }
           },
           "1507560298439": {
@@ -300,7 +309,7 @@
               "image": "shopify:\/\/shop_images\/SHOPSfuniture.jpg",
               "title": "JOHN DERIAN FURNITURE",
               "subtitle": "John Derian Collection by Cisco Brothers",
-              "content": "<p>8 East Second Street between 2nd Avenue and the Bowery<br>New York, NY 10003<br>furniture@johnderian.com<br>p. (212) 677-8409<br>Hours: Tuesday to Sunday 12pm&ndash;7pm<br>Closed Sundays in August<br>Open Mondays in December<\/p>"
+              "content": "<p>8 East Second Street between 2nd Avenue and the Bowery<br>New York, NY 10003<br>furniture@johnderian.com<\/p>\n<p><strong>Closed&nbsp;until further notice.<\/strong><\/p>\n<p><strong>Please email info@johnderian.com for inquiries or appointments.<\/strong><\/p>"
             }
           },
           "1522424797141": {
@@ -309,7 +318,7 @@
               "image": "shopify:\/\/shop_images\/unnamed.jpg",
               "title": "JOHN DERIAN WEST",
               "subtitle": "Decoupage, Astier de Villatte Ceramics & Imported Goods",
-              "content": "<p>18 Christopher Street<br>New York, NY 10014<br>west@johnderian.com<br>p.&nbsp;(212) 677-8402<br>Hours: Tuesday to Sunday 11am&ndash;7pm<br>Closed Sundays in August<br>Open Mondays in December<\/p>"
+              "content": "<p>18 Christopher Street<br>New York, NY 10014<br>west@johnderian.com<\/p>\n<p><strong>Closed&nbsp;until further notice.<\/strong><\/p>\n<p><strong>Please email info@johnderian.com for inquiries or appointments.<\/strong><\/p>"
             }
           },
           "1507560318583": {
@@ -318,11 +327,12 @@
               "image": "shopify:\/\/shop_images\/SHOPSProvincetown.jpg",
               "title": "JOHN DERIAN NEW ENGLAND",
               "subtitle": "NEW ENGLAND",
-              "content": "<p>Law Street (back of 396 Commercial Street)<br>Provincetown, MA 02657<br>p. (508) 487-1362<\/p>\n<p>Hours: Monday to Sunday 11am-7pm<\/p>\n<p>Closed 1pm-2pm for lunch<br>Open June 15 - September<\/p>"
+              "content": "<p>Law Street (back of 396 Commercial Street)<br>Provincetown, MA 02657<br>Hours:&nbsp;Saturday &amp; Sunday, 11am - 7pm<\/p>\n<p>Closed 1pm-2pm for lunch<br>Open&nbsp;July 4th - September<\/p>"
             }
           }
         },
         "block_order": [
+          "1588025385836",
           "1507560158228",
           "1507560280038",
           "1507560298439",
@@ -363,13 +373,6 @@
         ],
         "settings": {}
       },
-      "1518882607082": {
-        "type": "dynamic-instagram",
-        "settings": {
-          "main_title": "<p>Follow <a href=\"https:\/\/www.instagram.com\/johnderiancompany\/\" title=\"https:\/\/www.instagram.com\/johnderiancompany\/\">@johnderiancompany<\/a><\/p>",
-          "access_token": "18875112.1677ed0.c69519fd3600475794e2fb79914225c3"
-        }
-      },
       "static-cart": {
         "type": "static-cart",
         "settings": {
@@ -381,40 +384,64 @@
       "1565385605952": {
         "type": "dynamic-slideshow",
         "blocks": {
+          "1593438991580": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Collaged_Mats_RightCopy.jpg",
+              "layout": "full-width-right",
+              "text_color": "#f8f8f8",
+              "title": "Collaged Mats by John",
+              "text": "<p>One-of-a-kind handmade mats&nbsp;laminated for your workspace or kitchen table.&nbsp;<\/p>",
+              "link": "https:\/\/www.johnderian.com\/collections\/collaged-mats",
+              "link_text": "Shop"
+            }
+          },
+          "1565388131906": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Penkridge_RightCopy.jpg",
+              "layout": "full-width-right",
+              "text_color": "#ffffff",
+              "title": "Penkridge Porcelain",
+              "text": "<p>Each one of Penkridge's exquisitely detailed porcelain creation is cast from an existing fruit or vegetable and&nbsp;hand-painted.&nbsp;<\/p>",
+              "link": "https:\/\/www.johnderian.com\/collections\/penkridge-porcelain-fruit",
+              "link_text": "Shop"
+            }
+          },
+          "1565385763903": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/LeftCopy_PlayingCards.jpg",
+              "layout": "full-width-left",
+              "text_color": "#ffffff",
+              "title": "Playing Cards",
+              "text": "<p>John's souvenir playing cards are inspired by a 19th century deck from England.<\/p>",
+              "link": "https:\/\/www.johnderian.com\/collections\/playing-cards\/products\/john-derian-playing-cards",
+              "link_text": "Go Fish"
+            }
+          },
+          "1572384757681": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/LeftCopy_ADV_Incense_6c0cebd9-94f7-4eee-b29f-d9886ee22f80.jpg",
+              "layout": "full-width-left",
+              "text_color": "#ffffff",
+              "title": "Incense",
+              "text": "<p>From&nbsp;the&nbsp;deserts of Mongolia to the grand halls of Paris, Astier de Villatte's collection of incense&nbsp;scents are inspired by fragrances from around the world.&nbsp;&nbsp;<\/p>",
+              "link": "https:\/\/www.johnderian.com\/collections\/astier-de-villatte-incense-1",
+              "link_text": "Shop"
+            }
+          },
           "1565385913325": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/RightCopy_045515eb-279e-4dd9-9ed6-d654e34ff187.jpg",
-              "layout": "full-width-right",
-              "text_color": "#ffffff",
-              "title": "#Target20",
-              "text": "<p>In celebration of our JD x Target collaboration revival, we are featured in Target's&nbsp;micro-series documentary, \"Design for All\".<\/p>",
-              "link": "https:\/\/www.johnderian.com\/blogs\/news\/john-derian-for-target",
-              "link_text": "Watch & Exlpore"
-            }
-          },
-          "1565385605952-0": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/HAlloween_brighter_LeftCopy.jpg",
+              "image": "shopify:\/\/shop_images\/LeftCopy_Cisco.jpg",
               "layout": "full-width-left",
               "text_color": "#ffffff",
-              "title": "HAPPY HALLOWEEN",
-              "text": "<p>Celebrate October with spooky decoupage ephemera, cups, saucers, party plates and handcrafted critters.&nbsp;&nbsp;<\/p>",
-              "link": "https:\/\/www.johnderian.com\/collections\/halloween-1?page=1",
-              "link_text": "TRICK-OR-TREAT"
-            }
-          },
-          "1565385605952-1": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Scarves_LeftCopy.jpg",
-              "layout": "full-width-left",
-              "text_color": "#ffffff",
-              "title": "Picture Book Scarves",
-              "text": "<p>New Silk Scarves torn from the pages of John's <a href=\"https:\/\/www.johnderian.com\/collections\/john-derian-picture-book-1\" title=\"https:\/\/www.johnderian.com\/collections\/john-derian-picture-book-1\">Picture Book<\/a><\/p>",
-              "link": "https:\/\/www.johnderian.com\/collections\/john-derian-picture-book-scarves",
-              "link_text": "Shop Scarves"
+              "title": "Custom Furniture",
+              "text": "<p>Unique pieces adorned in Designers Guild, Decor Babares,&nbsp;Olya Thompson fabric.<\/p>",
+              "link": "https:\/\/www.johnderian.com\/collections\/custom-furniture",
+              "link_text": "Explore"
             }
           },
           "1565387408449": {
@@ -428,51 +455,36 @@
               "link": "https:\/\/www.johnderian.com\/blogs\/news\/the-new-york-times-style-magazine-online-july-2018",
               "link_text": "Watch"
             }
-          },
-          "1565385763903": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/LeftCopy_PlayingCards.jpg",
-              "layout": "full-width-left",
-              "text_color": "#ffffff",
-              "title": "Playing Cards",
-              "text": "<p>John's souvenir playing cards are inspired by a 19th century deck from Engalnd.<\/p>",
-              "link": "https:\/\/www.johnderian.com\/collections\/playing-cards\/products\/john-derian-playing-cards",
-              "link_text": "Go Fish"
-            }
-          },
-          "1565388131906": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/LeftCopy_AntoinettePoisson.jpg",
-              "layout": "full-width-left",
-              "text_color": "#ffffff",
-              "title": "Antoinette Poisson",
-              "text": "<p>Pillows and handmade items&nbsp;inspired by 18th Century French textiles.<\/p>",
-              "link": "https:\/\/www.johnderian.com\/collections\/antoinette-poisson",
-              "link_text": "Shop"
-            }
           }
         },
         "block_order": [
-          "1565385913325",
-          "1565385605952-0",
-          "1565385605952-1",
-          "1565387408449",
+          "1593438991580",
+          "1565388131906",
           "1565385763903",
-          "1565388131906"
+          "1572384757681",
+          "1565385913325",
+          "1565387408449"
         ],
         "settings": {
           "should_autoplay": true,
           "slide_autoplay": 4
+        }
+      },
+      "1592861988171": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "ovo_n4",
+          "heading_size": 29,
+          "feed_width": 100,
+          "html_area": "<!-- -->"
         }
       }
     },
     "content_for_index": [
       "section-2",
       "section-3",
-      "1565385605952",
-      "1518882607082"
+      "1592861988171",
+      "1565385605952"
     ]
   },
   "presets": {

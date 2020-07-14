@@ -13,3 +13,8 @@
     {{ variant.price | money }}
   </span>
 </div>
+{% if variant.price < variant.compare_at_price %}
+  {% if settings.product_hide_you_save %}
+    <span class="price">{{ 'variant.you_save' | t }}: <b id="save_value-{{ product.id }}">{{variant.compare_at_price | minus: variant.price | money}} ({{ variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price  | round: 2  }}%)</b></span>
+  {% endif %}
+{% endif %}
