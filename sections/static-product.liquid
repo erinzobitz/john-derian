@@ -102,6 +102,20 @@
       {%- if product.template_suffix == 'call-shop' -%}
         <p class="price">{{ product.price | money }}</p><!-- /.price -->
       {%- endif -%}
+      {%- unless product.template_suffix == 'no-price' -%}
+        {%- include 'product-price', variant: product.selected_or_first_available_variant -%}
+      {%- endunless -%}
+      {% if product.options.size == 1 %}
+  <script>
+    var product_variants_removed = [
+      {%- for variant in product.variants -%}
+        {%- unless variant.available -%}
+          `{{ variant.title }}`,
+        {%- endunless -%}
+      {%- endfor -%}
+    ];
+  </script>
+{% endif %}
     </div>
   </section>
 </div>

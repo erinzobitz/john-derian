@@ -29,6 +29,12 @@
   </span>
 {%- endcapture -%}
 
+{%- capture compare_at_price -%}
+  <span class="money money-compare-at" data-variant-compare-at-price>
+    {{ product.compare_at_price_min | money }}
+  </span>
+{%- endcapture -%}
+
 <article class="
   product-item
   product-item-style-{{ product_style }}
@@ -71,7 +77,7 @@
         {%- elsif on_sale and product.price_varies -%}
           {{ 'product.item.price.on_sale_range_html' | t: price: price }}
         {%- elsif on_sale -%}
-          {{ 'product.item.price.on_sale_html' | t: price: price }}
+          {{ compare_at_price }} {{ price }}
         {%- elsif product.price_varies -%}
           {{ 'product.item.price.range_html' | t: price: price }}
         {%- else -%}
@@ -81,7 +87,7 @@
         {%- if on_sale and product.price_varies -%}
           {{ 'product.item.price.on_sale_range_html' | t: price: price }}
         {%- elsif on_sale -%}
-          {{ 'product.item.price.on_sale_html' | t: price: price }}
+          {{ compare_at_price }} {{ price }}
         {%- elsif product.price_varies -%}
           {{ 'product.item.price.range_html' | t: price: price }}
         {%- else -%}
